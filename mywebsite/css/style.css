@@ -1,0 +1,146 @@
+body{
+  margin: 0px;
+  font-family: serif;
+}
+.logo{
+  height: 50px;
+  width: 60px;
+}
+nav{
+  text-align: right;
+  padding-right: 20px;
+  text-decoration: none;
+}
+nav ul li{
+  display: none;
+}
+#topnav a, .middle a{
+  background: #FFF44F;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+#topnav a:hover, .middle a:hover{
+  color: white;
+  background: blue;
+}
+p{
+  font-weight: lighter;
+  font-style: italic;
+  font-style: sans-serif;
+  border-top: blue;
+}
+#welcome{
+  font-family: sans-serif;
+  width: 100%;
+
+}
+
+.hero{
+  background-image: url(../img/play.jpg);
+  background-size: cover;
+  float: left;
+  width:100%;
+  height: 700px;
+  position: relative;
+}
+.middle{
+  position: absolute;
+  background: #000000;
+  float: left;
+  color: white;
+  margin: 15% 30% 45% 30%;
+  height: 40%;
+  width: 40%;
+  opacity: 0.7;
+}
+#middle_heading{
+  font-size: 300%;
+  text-align: center;
+}
+#middle_subtext{
+  padding-left: 10%;
+}
+.middle a{
+  margin-left: 40%;
+  margin-top: 20px;
+}
+/* .img1_3{
+  height: 250px;
+  width: 320px;
+}*/
+/* Acadmic section start */
+#plan{
+text-align: center;
+}
+#plan img{
+  border-top: blue;
+  height: 300px;
+  width: 400px;
+}/* acadmic end*/
+/* Admission start*/
+#admission_img{
+  margin-top: 20px;
+}
+#admission_form{
+  background: none;
+}
+#admission_form select{
+  width: 170px;
+  margin-top: 10px;
+}
+#admission_form input{
+margin-top: 10px;
+}
+#admission_form input .text_box{
+  width: 160px;
+}
+#admission_form #submit_reset{
+  float: inherit;
+  margin-left: 250px;
+}
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+  color: white;
+  background: blue;
+}
+footer{
+  background: #FFF44F;
+bottom:0;
+color: blue;
+width:100%;
+height:150px;
+clear: both;
+border-top: 2px solid blue;
+}
+.schooladd{
+  margin-top: 10px;
+  padding-top: 0px;
+}
+#qlink{
+  margin-top: 10px;
+}
+#qlink li a{
+  text-decoration: inherit;;
+  display: inline-block;
+  padding: 5px;
+  color: blue;
+}
+#socialimg{
+  padding: 0px;
+  text-align: right;
+  margin-top: 70px;
+}
+#socialimg a{
+  padding: 0px;
+}
+#socialimg a img{
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+}
